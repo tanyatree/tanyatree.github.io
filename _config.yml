@@ -9,6 +9,7 @@ author: "Tanya Tree"
 
 minima:
   skin: dark
+  show_excerpts: true
   social_links:
     - title: Tanya Tree repository at GitHub
       icon: github
@@ -23,7 +24,6 @@ minima:
 markdown: kramdown
 highlighter: rouge
 future: true
-show_excerpts: true
 
 collections:
   cheatsheets:
