@@ -1,3 +1,9 @@
+---
+title: "Big O Cheat Sheet for Python + Django Developers"
+description: "Learning about Big O notation helps you understand how your code scales as your data grows. This cheat sheet gives you real-world context for Python and Django performance."
+tags: [python, django]
+---
+
 # 🧮 Big O Cheat Sheet for Python + Django Developers
 
 Learning about **Big O notation** helps you understand *how your code scales* as your data grows.
