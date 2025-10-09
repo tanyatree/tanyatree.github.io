@@ -10,7 +10,12 @@ author: "Tanya Tree"
 minima:
   skin: dark
   social_links:
-    - { platform: github,  user_url: "https://github.com/tanyatree" }
+    - title: Tanya Tree repository at GitHub
+      icon: github
+      url: "https://github.com/tanyatree"
+    - title: Tanya Tree LinkedIn profile
+      icon: linkedin
+      url: "https://www.linkedin.com/in/tanya-tr%C3%ADfero-1880945a/"
   nav_pages:
     - index.md        # "Welcome"
     - cheatsheets.md  # "Cheatsheets"
