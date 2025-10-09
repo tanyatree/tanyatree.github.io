@@ -5,9 +5,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-author:
-  name: "Tanya Tree"
-  github: "tanyatree"
+author: "Tanya Tree"
 
 minima:
   skin: auto
@@ -16,3 +14,5 @@ minima:
     - { platform: linkedin, user_url: "https://www.linkedin.com/in/tanya-tr%C3%ADfero-1880945a/" }
 markdown: kramdown
 highlighter: rouge
+future: true
+show_excerpts: true
