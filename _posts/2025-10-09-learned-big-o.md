@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "What I Learned About Big O (and why I wish I knew this sooner)"
 date: 2025-10-09 10:00:00 -0300
 tags: [django, python, bigO, learning]
