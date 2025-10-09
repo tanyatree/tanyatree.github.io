@@ -1,5 +1,6 @@
 title: "Tanya Tree — Learning in Public"
 description: "Notes, experiments, and portfolio — Python/Django, patterns, and aha moments."
+remote_theme: "jekyll/minima@1e8a445"
 theme: minima
 plugins:
   - jekyll-feed
