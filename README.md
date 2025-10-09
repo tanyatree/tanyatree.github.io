@@ -3,16 +3,43 @@
 Hi, I’m **Tanya** — a Python 🐍 and Django 🌐 engineer who loves learning new things and writing about them.
 This space is my **developer notebook**: part journal, part portfolio, and part playground for ideas.
 
-I write about things I learn, from small “aha!” moments to deep dives into code design, optimization, and creativity.
 
 ---
 
 ## ✨ What You'll Find Here
 
-- 🧩 **Notes & Cheat Sheets** — condensed summaries of things I’ve studied
+- 🧩 **Notes & cheat Sheets** — condensed summaries of things I've studied
 - 💻 **Projects & Experiments** — little tools, scripts, and prototypes
 - 🧠 **Today I Learned (TIL)** posts — short reflections on new discoveries
-- 🪄 **Design Patterns** — how I’m applying them in real Django projects
+- 🪄 **Design Patterns** — how I'm applying them in real Django projects
+
+---
+
+## 📁 Site Structure
+
+```text
+├── _posts/              # Blog posts (TILs, tutorials)
+├── _cheatsheets/        # Individual cheatsheet pages
+├── about.md             # About page
+├── cheatsheets.md       # Cheatsheets index (auto-lists all cheatsheets)
+├── index.md             # Home page
+└── assets/css/          # Custom dark mode styling
+```
+
+### Adding Content
+
+**New blog post:**
+Create a file in `_posts/` with format: `YYYY-MM-DD-title.md`
+
+**New cheatsheet:**
+Create a file in `_cheatsheets/` with front matter:
+
+```yaml
+---
+title: "Your Title"
+description: "Brief description"
+---
+```
 
 ---
 
