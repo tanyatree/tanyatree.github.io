@@ -2,6 +2,7 @@
 layout: page
 title: Cheatsheets
 permalink: /cheatsheets/
+nav_order: 3
 ---
 
 Quick reference guides and code snippets I use frequently.

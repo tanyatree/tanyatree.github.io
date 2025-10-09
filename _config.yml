@@ -8,8 +8,13 @@ plugins:
 author: "Tanya Tree"
 
 minima:
+  skin: dark
   social_links:
     - { platform: github,  user_url: "https://github.com/tanyatree" }
+  nav_pages:
+    - index.md        # "Welcome"
+    - cheatsheets.md  # "Cheatsheets"
+    - about.md        # "About"
 markdown: kramdown
 highlighter: rouge
 future: true
