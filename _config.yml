@@ -29,10 +29,18 @@ collections:
   cheatsheets:
     output: true
     permalink: /cheatsheets/:name/
+  projects:
+    output: true
+    permalink: /projects/:name/
 
 defaults:
   - scope:
       path: ""
       type: "cheatsheets"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "projects"
     values:
       layout: "page"
