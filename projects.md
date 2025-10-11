@@ -15,8 +15,20 @@ nav_order: 3
     {{ p.summary | default: p.excerpt }}
     {% if p.links %}
       <br/>
-      {% if p.links.code %}{{ "[Code](" | append: p.links.code | append: ")" | markdownify }}{% endif %}
-      {% if p.links.live %}{{ "[Live](" | append: p.links.live | append: ")" | markdownify }}{% endif %}
+      {% assign code_link = "" %}
+      {% assign live_link = "" %}
+      {% if p.links.code %}{% assign code_link = "[Code](" | append: p.links.code | append: ")" %}{% endif %}
+      {% if p.links.live %}{% assign live_link = "[Live](" | append: p.links.live | append: ")" %}{% endif %}
+      {% if code_link and live_link %}
+        {% assign combined_links = code_link | append: " · " | append: live_link %}
+      {% elsif code_link %}
+        {% assign combined_links = code_link %}
+      {% elsif live_link %}
+        {% assign combined_links = live_link %}
+      {% endif %}
+      {% if combined_links %}
+        <span>{{ combined_links | markdownify | strip_newlines }}</span>
+      {% endif %}
     {% endif %}
   </li>
 {% endfor %}
