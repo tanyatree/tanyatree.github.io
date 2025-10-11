@@ -21,6 +21,7 @@ minima:
     - index.md        # "Welcome"
     - cheatsheets.md  # "Cheatsheets"
     - about.md        # "About"
+    - projects.md     # "Projects"
 markdown: kramdown
 highlighter: rouge
 future: true
