@@ -1,11 +1,11 @@
 ---
 title: "Merge PDFs"
 description: "A tiny Python CLI tool that merges all PDFs in a folder alphabetically into a single file."
-tags: [python, cli, automation]
+tags: \[python, cli, automation]
 date: 2025-10-10
 summary: "A minimalist Python CLI that merges all PDFs in a folder alphabetically into a single file."
 links:
-  code: "https://github.com/tanyatree/merge-pdfs"
+code: "<https://github.com/tanyatree/merge-pdfs>"
 stack: "Python CLI"
 ---
 
@@ -20,10 +20,10 @@ merge-pdfs ~/Documents/invoices -o combined.pdf
 
 ## ✨ Features
 
-- 🧩 Works both as a **stand‑alone script** or **CLI tool** (`pip install -e .`)
-- 📁 Automatically scans and merges `.pdf` files alphabetically
-- 🔍 Supports **dry‑run**, **verbose output**, and **custom output paths**
-- ⚡ Perfect for automating reports, invoices, or scanned documents
+* 🧩 Works both as a **stand‑alone script** or **CLI tool** (`pip install -e .`)
+* 📁 Automatically scans and merges `.pdf` files alphabetically
+* 🔍 Supports **dry‑run**, **verbose output**, and **custom output paths**
+* ⚡ Perfect for automating reports, invoices, or scanned documents
 
 ## 🧠 Why I Made It
 
@@ -42,4 +42,4 @@ merge-pdfs
 merge-pdfs ~/Documents/reports -o summary.pdf -v
 ```
 
----
+***
