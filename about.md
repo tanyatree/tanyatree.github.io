@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-nav_order: 2
+nav_order: 4
 ---
 
 Hi! I'm **Tanya**. I build things with Python and Django, and I love writing down what I learn so future‑me (and maybe you!) can find it again.

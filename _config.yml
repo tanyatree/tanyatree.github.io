@@ -20,8 +20,8 @@ minima:
   nav_pages:
     - index.md        # "Welcome"
     - cheatsheets.md  # "Cheatsheets"
-    - about.md        # "About"
     - projects.md     # "Projects"
+    - about.md        # "About"
 markdown: kramdown
 highlighter: rouge
 future: true

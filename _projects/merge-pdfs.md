@@ -27,7 +27,7 @@ merge-pdfs ~/Documents/invoices -o combined.pdf
 
 ## 🧠 Why I Made It
 
-I often needed to merge PDFs quickly without using a heavy app or dragging files into a UI.
+My husband needed to merge PDFs quickly and I decided to build a CLI tool to do it without using a heavy app or dragging files into a UI because I really didn't want to waste time with finding an app that will charge you $10 for a simple task.
 This script does it in one command — fast, portable, and under my control.
 
 > 🛠️ My first experiment building a CLI with `argparse` — small, fast, and practical!
