@@ -15,8 +15,8 @@ nav_order: 3
     {{ p.summary | default: p.excerpt }}
     {% if p.links %}
       <br/>
-      {% if p.links.code %}[Code]({{ p.links.code }}){% endif %}
-      {% if p.links.live %} · [Live]({{ p.links.live }}){% endif %}
+      {% if p.links.code %}{{ "[Code](" | append: p.links.code | append: ")" | markdownify }}{% endif %}
+      {% if p.links.live %} · {{ "[Live](" | append: p.links.live | append: ")" | markdownify }}{% endif %}
     {% endif %}
   </li>
 {% endfor %}
