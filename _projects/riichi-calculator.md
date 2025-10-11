@@ -82,8 +82,8 @@ python manage.py runserver
 
 ## 🔗 Links
 
-* 💻 Code: {{ page.links.code }}
-* 🌐 Live: {{ page.links.live }}
+* 💻 Code: [{{ page.links.code }}]({{ page.links.code }})
+* 🌐 Live: [{{ page.links.live }}]({{ page.links.live }})
 
 ***
 

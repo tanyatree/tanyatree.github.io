@@ -16,7 +16,7 @@ nav_order: 3
     {% if p.links %}
       <br/>
       {% if p.links.code %}{{ "[Code](" | append: p.links.code | append: ")" | markdownify }}{% endif %}
-      {% if p.links.live %} · {{ "[Live](" | append: p.links.live | append: ")" | markdownify }}{% endif %}
+      {% if p.links.live %}{{ "[Live](" | append: p.links.live | append: ")" | markdownify }}{% endif %}
     {% endif %}
   </li>
 {% endfor %}

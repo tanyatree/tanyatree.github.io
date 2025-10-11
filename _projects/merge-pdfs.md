@@ -41,3 +41,7 @@ merge-pdfs
 # Merge from a specific folder with custom output
 merge-pdfs ~/Documents/reports -o summary.pdf -v
 ```
+
+## 🔗 Links
+
+* 💻 Code: [{{ page.links.code }}]({{ page.links.code }})
