@@ -8,8 +8,8 @@ tags: \[python, django, drf, htmx, webapp, riichi, mahjong]
 date: 2024-03-31
 summary: "Web calculator + API for Riichi Mahjong scoring (no DB, instant results)."
 links:
-code: "<https://github.com/tanyatree/riichi-calculator>"
-live: "<https://riichi-calculator.onrender.com/>"
+  code: "https://github.com/tanyatree/riichi-calculator"
+  live: "https://riichi-calculator.onrender.com/"
 stack: "Django, Django REST Framework, HTMX, Simple.css, Gunicorn"
 
 ---

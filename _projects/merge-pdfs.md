@@ -5,7 +5,7 @@ tags: \[python, cli, automation]
 date: 2025-10-10
 summary: "A minimalist Python CLI that merges all PDFs in a folder alphabetically into a single file."
 links:
-code: "<https://github.com/tanyatree/merge-pdfs>"
+  code: "https://github.com/tanyatree/merge-pdfs"
 stack: "Python CLI"
 ---
 
@@ -41,5 +41,3 @@ merge-pdfs
 # Merge from a specific folder with custom output
 merge-pdfs ~/Documents/reports -o summary.pdf -v
 ```
-
-***
