@@ -95,7 +95,7 @@ I got to attend the meeting. I have never been so happy to be briefed by a ficti
 - **Back up first, and write to copies.** It's what made it safe to try something this silly.
 - **Binary formats are less scary than they look.** I've spent years thinking this stuff was for "real" low-level programmers. Sometimes it's a table of offsets and some floats, and Python's `struct` can read it just fine.
 
-I still don't know why the door doesn't open. I've written up a report for CD PROJEKT RED, because this fix shouldn't be anyone's solution. And if you're stuck in the same place, save editing is at your own risk: I only tested this on my own save, on this one build.
+I still don't know why the door doesn't open. I've written up a report that I'm going to send to CD PROJEKT RED, because this fix shouldn't be anyone's solution. And if you're stuck in the same place, save editing is at your own risk: I only tested this on my own save, on this one build.
 
 But I do have to admit that I started the night wanting to play a game about a hacker, and it ended up being the most hacker I've ever felt.
 
